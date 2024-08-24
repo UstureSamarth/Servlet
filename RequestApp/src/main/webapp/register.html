@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Registration Page</title>
+</head>
+
+<body bgcolor="blue" text="white">
+	<center>
+		<h1>.. App ..</h1>
+	</center>
+	<form method="post" action="./reg">
+		<table align="center">
+			<tr>
+				<th>
+					Name
+				</th>
+				<td>
+					<input type="text" name="username"/>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Email
+				</th>
+				<td>
+					<input type="email" name="email"/>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Enter course details
+				</th>
+				<td>
+					<select name="course" multiple="multiple">
+						<option value="corejava">Core Java</option>
+						<option value="advancejava">Advance Java</option>
+						<option value="hibernate">Hibernate</option>
+						<option value="spring">Spring</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>
+				</th>
+				<td>
+					<input type="submit" value="Submit"/>
+				</td>
+			</tr>
+			
+		</table>
+	</form>
+</body>
+
+</html>
